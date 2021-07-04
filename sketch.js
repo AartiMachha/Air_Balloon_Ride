@@ -70,7 +70,7 @@ function updateHeight(x,y){
 }
 
 function readPosition(data){
-  height = data.val();
+  position = data.val();
   balloon.x = position.x;
   balloon.y = position.y;
 }
